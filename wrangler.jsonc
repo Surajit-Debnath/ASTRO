@@ -9,7 +9,9 @@
 	"env": {
 		"staging": {
 			"vars": {
-				"ENVIRONMENT": "staging"
+				"ENVIRONMENT": "staging",
+				"POLICY_AUD":"5ca17b1eadf9760c84ad4d69d5dd89d363e803d408c4c24638d048d8a4591491",
+				"CF_ACCESS_DOMAIN":"https://cold-union-4702.cloudflareaccess.com/cdn-cgi/access/certs"
 			}
 		},
 		"production": {

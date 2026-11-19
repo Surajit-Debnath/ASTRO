@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 
-const HEALTH_URL = import.meta.env.DEV
-  ? "http://127.0.0.1:8787/api/health"
-  : "/api/health";
+const HEALTH_URL = "/api/health";
 
 export const ServerStatus = () => {
   const [status, setStatus] = useState("Checking...");
